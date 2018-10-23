@@ -1,0 +1,157 @@
+
+hr      {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2px;
+	background-color:#778899;
+	color:#778899;
+	}
+
+
+
+
+
+
+
+
+
+#contact{
+	font-family:microsoft jhenghei;
+	background:#f0f0f0;
+	display:inline-block;
+	height:100px;
+	width:100%;
+	}
+
+
+
+
+
+
+#content1{
+	font-family:microsoft jhenghei;
+	display:inline-block;
+	float:left;
+	margin-left:220px;
+	heigth:100px;
+	width:20%;
+	background:#f0f0f0;
+	}
+
+
+
+
+
+
+
+
+
+
+#content2{
+	display:inline-block;
+	font-family:microsoft jhenghei;
+	height:100px;
+	width:20%;
+	background:#f0f0f0;
+	}
+
+
+
+
+
+
+
+
+#content3{
+
+	height:100px;
+	font-family:microsoft jhenghei;
+	display:inline-block;
+	width:20%;
+	background:#f0f0f0;
+	}
+
+
+
+
+
+
+#container{
+
+	background:#f0f0f0;
+	display:inline-block;
+	height:500px;
+
+	width:100%;
+
+}
+
+
+
+
+
+
+
+
+#content4{
+	background:#f0f0f0;
+	font-family:microsoft jhenghei;
+	height:100px;
+	margin-top:10px;
+	display:inline-block;
+	width:40%;
+	}
+
+
+
+
+
+
+
+
+#content5
+	{
+	background:#f0f0f0;
+	font-family:microsoft jhenghei;
+	height:100px;
+	margin-top:0px;
+	float:top;
+	display:inline-block;
+	width:40%;
+	}
+
+
+h1	{
+	color:orange;
+	text-align:center;
+	font-size:70px;
+	}
+
+
+
+#nav {font-family:microsoft jhenghei
+    line-height:30px;
+    height:10px;
+    width:500px;
+    float:left;
+    padding:70px;	      
+}
+
+
+#navv
+	{
+	font-family:microsoft jhenghei
+    	line-height:30px;
+   	 height:30px;
+   	 width:400px;
+   	 float:right;
+   	 padding:70px;	      	
+	}
+
+
+
+#form{
+	background-color:#f0f0f0;
+	}
+

@@ -1,0 +1,71 @@
+<html>
+<head>
+	
+<link rel="stylesheet" type="text/css" href="style1.css"/>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#showHide").click(function () {
+			if ($(".password").attr("type")=="password") {
+				$(".password").attr("type", "text");
+			}
+			else{
+				$(".password").attr("type", "password");
+			}
+	
+		});
+	});
+
+
+	
+
+</script></head>
+<body bgcolor=#F0F0F0>
+<div id="portion1">
+
+<div  class="header1" id="header_name1">Hotel Royal </div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+<ul id="header_ul1" class="header1" >
+  
+<li id="header_li1"><a id="header_links1" href="#home">Home</a></li>
+ 
+ <li id="header_li1"><a id="header_links1" href="#gallery">Gallery</a></li>
+ 
+ <li id="header_li1"><a id="header_links1" href="#facilities">Facilitites</a></li>
+ 
+ <li id="header_li1"><a id="header_links1" href="#booking">Booking</a></li>
+ 
+<li id="header_li1"><a id="header_links1" href="#contact">Contact</a></li>
+ 
+</ul>
+</div><!--End of div-->
+
+<div id="form_content"><br>
+<form name="form">
+&nbsp;&nbsp;&nbsp;&nbsp;Personal information (*Indicates required fields)<br><br><br>
+   
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>Name*</B><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=Name placeholder=Name type=text required style="height:30px">&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=Surname placeholder=Surname  type=text required style="height:30px"><br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>Choose your username*</B><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=Username placeholder=Userame type=text required style="width:363px;height:30px"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>Choose your Password*</B><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" class="password" name=pass placeholder=Password required style="height:30px;width:363px"> &nbsp;<input type="checkbox" id="showHide">Show<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>Gender</B><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select style="width:363px;height:30px" required>
+  <option value="Male" style="width:363px;height:30px">Male</option>
+  <option value="Female" style="width:363px;height:30px">Female</option>
+  <option value="Other" style="width:363px;height:30px">other</option>
+</select><br><br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>Contact no.*</B><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name=contact placeholder=Contact style="width:363px;height:30px" required><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<pre>                        <input type="submit" name=submit value="Submit" style="width:100px;height:30px;background-color:#99CCFF"> </pre>
+</form>
+</div><!--End of div-->
+
+
+</body>
+</html>

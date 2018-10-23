@@ -1,0 +1,19 @@
+var text = ["Welcome to royal motel", "The climate that refreshes you", " 5 star motel where infrastructure catches you eyes","Pool that energize you", "State of art infrastructure", "Reception","Banquet for parties","Disco for outstressing"]
+var slideimages = new Array() // create new array to preload images
+slideimages[0] = new Image() // create new instance of image object
+slideimages[0].src = "main7.jpg" // set image src property to image path, preloading image in the process
+slideimages[1] = new Image()
+slideimages[1].src = "main7.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "main3.jpg"
+slideimages[3] = new Image()
+slideimages[3].src = "main4.jpg"
+slideimages[4] = new Image()
+slideimages[4].src = "main5.jpg"
+slideimages[5] = new Image()
+slideimages[5].src = "main6.jpg"
+slideimages[6] = new Image()
+slideimages[6].src = "main1.jpg"
+slideimages[7] = new Image()
+slideimages[7].src = "main8.jpg"
+
